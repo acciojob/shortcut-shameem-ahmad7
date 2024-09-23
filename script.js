@@ -1,9 +1,9 @@
 function shortcut(s1, s2) {
   // your code here
-	if (str1.length > 0 && str2.length > 0) {
+	if (s1.length > 0 && s2.length > 0) {
         // Get the first letters of both strings
-        const firstLetterStr1 = str1.charAt(0);
-        const firstLetterStr2 = str2.charAt(0);
+        const firstLetterStr1 = s1.charAt(0);
+        const firstLetterStr2 = s2.charAt(0);
         
         // Concatenate and return them
         return firstLetterStr1 + firstLetterStr2;
